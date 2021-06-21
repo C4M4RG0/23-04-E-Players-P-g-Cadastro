@@ -1,0 +1,592 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    width: 100%;
+    height: 80px;
+}
+
+header {
+    width: 100%;
+    height: 80px;
+    background-color: #1E1C21;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    z-index: 999;
+    -webkit-box-shadow: 0px 0px 25px 10px #000000;
+    box-shadow: 0px 0px 25px 10px #000000;
+}
+
+.container-header {
+    height: 80px;
+    width: 77vw;
+    background-color: #1E1C21;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 18vw;
+}
+
+.menu-header {
+    width: 40vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-header a {
+    text-decoration: none;
+    font-size: 17px;
+    font-family: 'Titillium Web', sans-serif;
+    text-transform: uppercase;
+    color: white;
+}
+
+main {
+    top: 60px;
+}
+
+.degrade {
+    width: 100%;
+    height: 35vw;
+    background: linear-gradient(270deg, #000000 17.66%, #6E7486 67.83%, #2F50C7 84.13%, #0036F7 100%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.kirito {
+    position: relative;
+    width: 1000px;
+    height: 480px; 
+    filter: drop-shadow(76px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.ligaeplayers {
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 3vw;
+    margin-top: -6vw;
+    color: white;
+}
+
+.inscrevase {
+    text-transform: uppercase;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 1.5vw;
+    width: 12vw;
+    height: 4vw;
+    color: white;
+    background-color: #C31616;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2vw;
+    border-radius: 15px;
+    text-decoration: none;
+}
+
+.margin-logos {
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.logos-jogos {
+    height: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    width: 77vw;
+    align-items: center;
+}
+
+.bgminecraft {
+    background: linear-gradient(0deg, rgba(79, 189, 41, 0.65), rgba(79, 189, 41, 0.65)), url(assets/minecraft-2020.webp);
+    width: 100%;
+    background-size: cover;
+    height: 490px;
+    border: none;
+    justify-content: center;
+}
+
+.retangulo-torto {
+    width: 100%;
+    height: 442px;
+    -webkit-transform: skew(20deg);
+    background: #000000;
+    transform: skewY(-4deg);
+    display: flex;
+    justify-content: center;
+}
+
+.conteudo-retangulo-torto {
+    width: 77vw;
+    height: 442px;
+    -webkit-transform: skew(-20deg);
+    transform: skewY(4deg);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.textos-retangulo-torto {
+    color: white;
+    width: 36vw;
+    height: 74%;
+}
+
+.como-participar {
+    font-family: 'Titillium Web', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 200%;
+    line-height: 300%;
+}
+
+.lorem {
+    font-family: 'Titillium Web', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 112%;
+    line-height: 120%;
+}
+
+.imagem-retangulo-torto {
+    height: 100%;
+    margin-bottom: 0.4%;
+}
+
+.imagem-retangulo-torto img {
+    height: 31vw;
+}
+
+.fundo-campeonato {
+    height: 100px;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+}
+
+.campeonato {
+    height: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    width: 77vw;
+    align-items: center;
+}
+
+.textos-campeonato {
+    text-transform: uppercase;
+    font-family: 'Titillium Web', sans-serif;
+    color: white;
+    font-size: 180%;
+    width: 99%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.placar {
+    display: flex;
+    justify-content: center;
+    width: 14vw;
+    align-items: center;
+}
+
+.sk {
+    text-transform: uppercase;
+    font-family: 'Titillium Web', sans-serif;
+    color: white;
+    font-size: 135%;
+}
+
+.vs {
+    text-transform: uppercase;
+    font-family: 'Titillium Web', sans-serif;
+    color: white;
+    font-size: 100%;
+    font-weight: 800;
+}
+
+.linhazinha {
+    width: 70px;
+    height: 0px;
+    left: 810px;
+    top: 1319px;
+    border: 2px solid #FFFFFF;
+    transform: rotate(90deg);
+}
+
+.fundo-noticias {
+    width: 100%;
+    height: 65vw;
+    background-color: #1E1C21;
+    display: flex;
+    justify-content: center;
+}
+
+.container-noticias {
+    width: 77vw;
+    height: 60vw;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5vw;
+}
+
+.noticias {
+    width: 55vw;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo-noticias {
+    height: 8vw;
+    width: 55vw;
+    display: flex;
+    align-items: center;
+}
+
+.noticias-cima {
+    width: 55vw;
+    height: 22vw;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5vw;
+}
+
+.noticias-baixo {
+    width: 55vw;
+    height: 22vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.noticia-player {
+    width: 15vw;
+    height: 100%;
+    background: rgb(28, 26, 30);
+    background: -moz-linear-gradient(top, rgba(28, 26, 30, 1) 0%, rgba(16, 14, 17, 1) 0%, rgba(13, 12, 15, 1) 1%, rgba(21, 21, 22, 1) 11%, rgba(31, 31, 31, 1) 18%, rgba(44, 44, 44, 1) 24%, rgba(45, 45, 45, 1) 76%, rgba(31, 31, 32, 1) 82%, rgba(20, 20, 21, 1) 89%, rgba(12, 12, 14, 1) 97%, rgba(13, 12, 14, 1) 100%);
+    background: -webkit-linear-gradient(top, rgba(28, 26, 30, 1) 0%, rgba(16, 14, 17, 1) 0%, rgba(13, 12, 15, 1) 1%, rgba(21, 21, 22, 1) 11%, rgba(31, 31, 31, 1) 18%, rgba(44, 44, 44, 1) 24%, rgba(45, 45, 45, 1) 76%, rgba(31, 31, 32, 1) 82%, rgba(20, 20, 21, 1) 89%, rgba(12, 12, 14, 1) 97%, rgba(13, 12, 14, 1) 100%);
+    background: linear-gradient(to bottom, rgba(28, 26, 30, 1) 0%, rgba(16, 14, 17, 1) 0%, rgba(13, 12, 15, 1) 1%, rgba(21, 21, 22, 1) 11%, rgba(31, 31, 31, 1) 18%, rgba(44, 44, 44, 1) 24%, rgba(45, 45, 45, 1) 76%, rgba(31, 31, 32, 1) 82%, rgba(20, 20, 21, 1) 89%, rgba(12, 12, 14, 1) 97%, rgba(13, 12, 14, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#1c1a1e', endColorstr='#0d0c0e', GradientType=0);
+    -webkit-box-shadow: 8px 10px 15px 5px #000000;
+    box-shadow: 8px 10px 15px 5px #000000;
+}
+
+.texto-noticia-fundo {
+    display: flex;
+    justify-content: center;
+}
+
+.texto-noticia {
+    width: 11vw;
+    font-family: 'Titillium Web', sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+
+.texto-noticia h3 {
+    font-family: 'Titillium Web', sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    line-height: 230%;
+}
+
+.noticia-player img {
+    width: 100%;
+}
+
+.proximos-jogos {
+    width: 17vw;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.proximos-jogos-titulo {
+    height: 8vw;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.título-3 {
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: bold;
+    font-size: 34px;
+
+    color: #FFFFFF;
+}
+
+.proximosjogos-degrade {
+    background: rgb(28, 26, 30);
+    background: -moz-linear-gradient(top, rgba(28, 26, 30, 1) 0%, rgba(16, 14, 17, 1) 0%, rgba(13, 12, 15, 1) 1%, rgba(21, 21, 22, 1) 11%, rgba(31, 31, 31, 1) 18%, rgba(44, 44, 44, 1) 24%, rgba(45, 45, 45, 1) 76%, rgba(31, 31, 32, 1) 82%, rgba(20, 20, 21, 1) 89%, rgba(12, 12, 14, 1) 97%, rgba(13, 12, 14, 1) 100%);
+    background: -webkit-linear-gradient(top, rgba(28, 26, 30, 1) 0%, rgba(16, 14, 17, 1) 0%, rgba(13, 12, 15, 1) 1%, rgba(21, 21, 22, 1) 11%, rgba(31, 31, 31, 1) 18%, rgba(44, 44, 44, 1) 24%, rgba(45, 45, 45, 1) 76%, rgba(31, 31, 32, 1) 82%, rgba(20, 20, 21, 1) 89%, rgba(12, 12, 14, 1) 97%, rgba(13, 12, 14, 1) 100%);
+    background: linear-gradient(to bottom, rgba(28, 26, 30, 1) 0%, rgba(16, 14, 17, 1) 0%, rgba(13, 12, 15, 1) 1%, rgba(21, 21, 22, 1) 11%, rgba(31, 31, 31, 1) 18%, rgba(44, 44, 44, 1) 24%, rgba(45, 45, 45, 1) 76%, rgba(31, 31, 32, 1) 82%, rgba(20, 20, 21, 1) 89%, rgba(12, 12, 14, 1) 97%, rgba(13, 12, 14, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#1c1a1e', endColorstr='#0d0c0e', GradientType=0);
+    width: 100%;
+    height: 78vw;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    -webkit-box-shadow: 8px 10px 15px 5px #000000;
+    box-shadow: 8px 10px 15px 5px #000000;
+}
+
+.jogo {
+    height: 7vw;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2vw;
+}
+
+.jogo-placar {
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.jogo-horario {
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+footer {
+    background-color: #010101;
+    height: 250px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-container {
+    background-color: #010101;
+    height: 250px;
+    width: 77vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-esquerda {
+    width: 25vw;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    justify-self: left;
+}
+
+.circulo {
+    width: 1vw;
+    height: 1vw;
+    border-radius: 50%;
+    background-color: white;
+    margin-right: 3%;
+}
+
+.links-bolinha {
+    width: 16vw;
+    height: 7vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.links-footer {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.links-footer a {
+    text-decoration: none;
+    font-family: 'Titillium Web', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 100%;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+
+.footer-links-uteis {
+    width: 13vw;
+    height: 10vw;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.footer-links-uteis span {
+    font-family: 'Titillium Web', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 125%;
+    color: #FFFFFF;
+}
+
+.footer-paginas span {
+    font-family: 'Titillium Web', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 125%;
+    color: #FFFFFF;
+}
+
+.footer-paginas {
+    width: 12vw;
+    height: 10vw;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.footer-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 18vw;
+    justify-self: center;
+    align-self: center;
+}
+
+.footer-direita {
+    flex-direction: column;
+    align-items: center;
+    width: 22vw;
+    display: flex;
+    justify-content: center;
+    color: white;
+    justify-self: right;
+    height: 100%;
+}
+
+.footer-direita span {
+    font-family: 'Titillium Web', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 80%;
+    color: #FFFFFF;
+    margin-bottom: 5%;
+}
+
+.buscar {
+    display: flex;
+    align-items: center;
+}
+
+.buscar input {
+    width: 14vw;
+    height: 2.5vw;
+    font-family: 'Titillium Web', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 110%;
+    line-height: 50%;
+}
+
+.buscar a {
+    width: 8vw;
+    height: 2.5vw;
+    font-family: 'Titillium Web', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 110%;
+    color: white;
+    background-color: #001F70;
+    text-decoration: none;
+}
+
+::placeholder {
+    color: #6767678f;
+    opacity: 1;
+    margin-left: 5%;
+}
+
+.cadastrar {
+    display: flex;
+    align-self: center;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+.siga-nos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 18vw;
+}
+
+.siga-nos p {
+    font-family: 'Titillium Web', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 100%;
+    color: #FFFFFF;
+}
+
+.logo-redes {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    width: 279px;
+    height: 68.57px;
+}
+
+.instagram {
+    text-decoration: none;
+}    
+
+.facebook {
+    text-decoration: none;
+}    
+
+.youtube {
+    text-decoration: none;
+}
+
+.discord {
+    text-decoration: none;
+}
+
+.redes{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
